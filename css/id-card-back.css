@@ -28,7 +28,7 @@ mm a px
     position: relative;
     border-radius: 10px;
     box-shadow: 0px 0px 5px black;
-    background: linear-gradient(-190deg, rgba(252,252,252),50%, rgba(193,214,197), rgba(147,187,153), rgba(32,122,110), rgba(35,124,130), rgba(36,128,149));
+    background: linear-gradient(190deg, rgba(252,252,252),50%, rgba(193,214,197), rgba(147,187,153), rgba(32,122,110), rgba(35,124,130), rgba(36,128,149));
 }
 
 .logo-fraternidad {
