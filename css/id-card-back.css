@@ -31,65 +31,31 @@ mm a px
     background: linear-gradient(-190deg, rgba(252,252,252),50%, rgba(193,214,197), rgba(147,187,153), rgba(32,122,110), rgba(35,124,130), rgba(36,128,149));
 }
 
-.companyname {
+.logo-fraternidad {
     color: black;
     font-size: 9px;
 }
 
-.companyname img {
+.logo-fraternidad img {
     position: absolute;
     object-fit: content;
-    height: 60px;
-    width: 60px;
+    height: 130px;
+    width: 110px;
     top: 10px;
-    left: 10px;
-}
-
-.companyname .org-nombre{
-    position: absolute;
-    line-height: 115%;
-    top: 15px;
-    left: 75px;
-}
-
-.companyname .org-dir{
-    line-height: 115%;
-    font-size: 6px;
-}
-
-.profile-pic img {
-    height: 93.75px;
-    width: 75px;
-    background-color: rgba(36,128,149);
-    position: absolute;
-    top: 85px;
-    left: 25px;
-    object-fit: content;
-    border: 3px solid rgba(255, 255, 255, .2);
+    left: 20px;
 }
 
 .edetails {
     position: absolute;
-    top: 85px;
-    left: 115px;
+    top: 155px;
+    left: 30px;
     color: black;
     font-size: 6px;
 }
 
-.ename {
-    position: absolute;
-    top: 192px;
-    margin-left: 25px;
-    font-size: 11px;
-}
-
-.ename .nomina{
-    font-size: 5px;
-}
-
 .logo-policia {
     position: absolute;
-    top: 170px;
+    top: 130px;
     left: 135px;
 }
 
@@ -101,33 +67,39 @@ mm a px
 }
 
 
-.qr {
+.signature {
     text-align: center;
-    position: absolute;
-    top: 62.5%;
-    left: 135px;
+    position: relative;
+    justify-content: center;
+    top: 220px;
+    left: 10px;
+    font-size: 6px;
 }
 
-.qr img {
-    position: absolute;
-    top: 35px;
-    left: -20px;
-    height: 60px;
-    width: 60px;
-    margin: 20px;
-
+.signature img {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 80px;
 }
 
-.eslogan {
-    position: absolute;
-    top: 288px;
+.signature .president-name {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
     left: 30px;
+    height: 30px;
+    width: 120px;
+}
+
+.advice {
+    position: absolute;
+    text-align: center;
+    top: 288px;
+    left: 40px;
     font-size: 6px;
     color: white;
-    width: 70px;
-}
-
-.edetails .Address {
-    width: 60%;
-    text-align: justify;
+    width: 130px;
 }
