@@ -15,19 +15,24 @@
     flex-direction: row;
 }
 
+
+/*
+mm a px
+85.6 mm -> 323.53 px
+53.98 mm -> 204.02 px
+*/
+
 .font {
     height: 85.60mm;
     width: 53.98mm;
     position: relative;
     border-radius: 10px;
-    border-style: solid;
-    border-color: black;
+    box-shadow: 0px 0px 5px black;
     background: linear-gradient(-190deg, rgba(252,252,252),50%, rgba(193,214,197), rgba(147,187,153), rgba(32,122,110), rgba(35,124,130), rgba(36,128,149));
 }
 
 .companyname {
     color: black;
-    padding: 10px;
     font-size: 9px;
 }
 
@@ -35,19 +40,23 @@
     position: absolute;
     object-fit: content;
     height: 60px;
-    width: 100px;
+    width: 60px;
     top: 10px;
-    left: -10px;
+    left: 10px;
 }
 
 .companyname .org-nombre{
     position: absolute;
-    top: 10px;
+    top: 15px;
     left: 75px;
 }
 
 .companyname .org-dir{
     font-size: 6.5px;
+}
+
+.companyname .text-bold{
+    font-weight: 800;
 }
 
 .top img {
